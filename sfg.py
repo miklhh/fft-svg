@@ -46,6 +46,8 @@ for cur_y in range(len(x2)):
         if not isnan(w):
             svg.create_arc(f, [1, prev_y], [2, cur_y], w)
 
+svg.tex_draw(f, r"$E = mc^2$", 200, 200)
+
 # Close file
 svg.footer_write(f)
 f.close()
