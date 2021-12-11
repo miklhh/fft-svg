@@ -1,0 +1,6 @@
+*.aux
+*.log
+*.pdf
+*.svg
+*.tex
+*__pycache__
